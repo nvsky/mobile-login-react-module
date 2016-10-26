@@ -1,0 +1,24 @@
+{
+  "name": "mobile-login-module",
+  "version": "1.0.0",
+  "description": "mobile login modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvsky/mobile-login-react-module.git"
+  },
+  "keywords": [
+    "react",
+    "mobile",
+    "login"
+  ],
+  "author": "hijack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvsky/mobile-login-react-module/issues"
+  },
+  "homepage": "https://github.com/nvsky/mobile-login-react-module#readme"
+}
