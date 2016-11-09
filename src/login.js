@@ -90,7 +90,7 @@ const Login = React.createClass({
       [`${prefixCls}-bottom-none`]: true,
     });
     return (
-      <div>
+      <div {...restProps}>
         <div className={prefixCls}>
           <div className={`${prefixCls}-input`}>
             <div>
@@ -111,17 +111,6 @@ const Login = React.createClass({
           <p style={{textAlign: 'center', color: 'red'}} >ads</p>
         </div>
       </div>
-      // <span {...restProps}
-      //   className={switchClassName}
-      //   tabIndex="0"
-      //   ref="node"
-      //   onKeyDown={this.handleKeyDown}
-      //   onClick={disabled ? noop : this.toggle}
-      //   onMouseUp={this.handleMouseUp}>
-      //   <span className={`${prefixCls}-inner`}>
-      //     {checked ? checkedChildren : unCheckedChildren}
-      //   </span>
-      // </span>
     );
   },
 });
