@@ -3,7 +3,7 @@
 
 mobile login react modules
 
-[![Build Status][travis-image]][travis-url]
+[![build status][travis-image]][travis-url]
 
 [travis-url]: https://travis-ci.org/nvsky/mobile-login-react-module.svg?branch=master
 
