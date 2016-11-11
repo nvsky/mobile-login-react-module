@@ -38,7 +38,7 @@ const Login = React.createClass({
   },
   checkCode() {
     if (this.refs.phoneValue.value && /^1\d{10}$/.test(this.refs.phoneValue.value)) {
-      this.refs.codeButton.setAttribute('disabled',true);
+      this.refs.codeButton.setAttribute('disabled', 'true');
       this.refs.codeButton.style.opacity = 0.6;
       this.setState({
         msg: ''
