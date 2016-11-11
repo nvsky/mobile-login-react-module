@@ -9,7 +9,6 @@ const Login = React.createClass({
   propTypes: {
     className: React.PropTypes.string,
     prefixCls: React.PropTypes.string,
-    disabled: React.PropTypes.bool,
     msg: React.PropTypes.string,
     getCode: React.PropTypes.func,
     getLogin: React.PropTypes.func,
@@ -17,7 +16,6 @@ const Login = React.createClass({
   getDefaultProps() {
     return {
       prefixCls: 'rc-login',
-      disabled: false,
       className: '',
       msg: '',
       getCode: noop,
@@ -29,12 +27,7 @@ const Login = React.createClass({
       codeButtonContent: '获取验证码'
     };
   },
-  componentWillReceiveProps(nextProps) {
-    if ('checked' in nextProps) {
-      this.setState({
-        checked: !!nextProps.checked,
-      });
-    }
+  componentWillReceiveProps() {
   },
   checkCode() {
     if (this.refs.phoneValue.value && /^1\d{10}$/.test(this.refs.phoneValue.value)) {
@@ -43,7 +36,7 @@ const Login = React.createClass({
       this.setState({
         msg: ''
       });
-      this.props.getCode();
+      this.props.getCode(this.refs.phoneValue.value);
       let num = 60;
       const interval = setInterval(()=> {
         if (num > 0) {
@@ -87,7 +80,6 @@ const Login = React.createClass({
   render() {
     const {
       prefixCls,
-      disabled,
       ...restProps
     } = this.props;
     const seccondInput = classNames({
