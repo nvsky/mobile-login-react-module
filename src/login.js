@@ -25,7 +25,6 @@ const Login = React.createClass({
     };
   },
   getInitialState() {
-    const props = this.props;
     return {
       codeButtonContent: '获取验证码'
     };
@@ -39,14 +38,14 @@ const Login = React.createClass({
   },
   checkCode() {
     if (this.refs.phoneValue.value && /^1\d{10}$/.test(this.refs.phoneValue.value)) {
-      this.refs.codeButton.setAttribute("disabled",true);
+      this.refs.codeButton.setAttribute('disabled',true);
       this.refs.codeButton.style.opacity = 0.6;
       this.setState({
-        msg: ""
+        msg: ''
       });
       this.props.getCode();
       let num = 60;
-      let interval = setInterval(()=> {
+      const interval = setInterval(()=> {
         if (num > 0) {
           num--;
           this.setState({
@@ -54,7 +53,7 @@ const Login = React.createClass({
           });
         } else {
           this.refs.codeButton.style.opacity = 1;
-          this.refs.codeButton.removeAttribute("disabled");
+          this.refs.codeButton.removeAttribute('disabled');
           this.setState({
             codeButtonContent: '获取验证码'
           });
@@ -63,7 +62,7 @@ const Login = React.createClass({
       }, 1000);
     } else {
       this.setState({
-        msg: "请输入正确手机号"
+        msg: '请输入正确手机号'
       });
     }
   },
@@ -91,7 +90,6 @@ const Login = React.createClass({
       disabled,
       ...restProps
     } = this.props;
-    
     const seccondInput = classNames({
       [`${prefixCls}-input`]: true,
       [`${prefixCls}-bottom-none`]: true,
