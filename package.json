@@ -3,9 +3,6 @@
   "version": "1.0.1",
   "description": "mobile login modules",
   "main": "index.js",
-  "scripts": {
-    "test": "npm run test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nvsky/mobile-login-react-module.git"
