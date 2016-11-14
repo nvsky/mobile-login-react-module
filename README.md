@@ -3,9 +3,7 @@
 
 mobile login react modules
 
-[![build status][travis-image]][travis-url]
-
-[travis-url]: https://travis-ci.org/nvsky/mobile-login-react-module.svg?style=flat-square
+[![build status](https://travis-ci.org/nvsky/mobile-login-react-module.svg?style=flat-square)](https://travis-ci.org/nvsky/mobile-login-react-module)
 
 ## install
 
