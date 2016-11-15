@@ -1,0 +1,78 @@
+html {
+  background: #f8f8f8;
+  font-size: 62.5%;
+}
+body {
+  font-family: 'MicrosoftYaHei', 'HiraginoSansGB-W3';
+  font-size: 1.4rem;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+.rc-login {
+  margin-top: 2rem;
+}
+.rc-login input {
+  line-height: normal;
+  outline: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: -1px 0px 15px 10px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+.rc-login img {
+  width: 1.6rem;
+}
+.rc-login button {
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  background: #fc6121;
+  border-radius: 2px;
+  width: 9.4rem;
+  height: 3rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  border: none;
+  overflow: visible;
+  font: inherit;
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+.rc-login-input {
+  height: 5rem;
+  background-color: #fff;
+  border-bottom: .1rem solid #e8e8e8;
+  padding: 1rem;
+}
+.rc-login button,
+.rc-login input:not([type=radio]):not([type=checkbox]),
+.rc-login select {
+  vertical-align: middle;
+}
+.rc-login-input div {
+  width: 1.6rem;
+  display: inline-block;
+  padding-top: .3rem;
+}
+.rc-login-bottom-none {
+  border-bottom: 0;
+}
+.rc-login-submit {
+  background: #fc6121;
+  border-radius: 4px;
+  height: 4rem;
+  line-height: 4rem;
+  color: #fff;
+  text-align: center;
+  margin: 6rem 1rem 3rem 1rem;
+  font-size: 1.6rem;
+}
+
+/*# sourceMappingURL=login.css.map*/
