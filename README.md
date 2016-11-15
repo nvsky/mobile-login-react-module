@@ -5,6 +5,11 @@ mobile login react modules
 
 [![build status](https://travis-ci.org/nvsky/mobile-login-react-module.svg?style=flat-square)](https://travis-ci.org/nvsky/mobile-login-react-module)
 
+[![Test coverage][coveralls-image]][coveralls-url]
+
+[coveralls-image]: https://coveralls.io/repos/github/nvsky/mobile-login-react-module/badge.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/github/nvsky/mobile-login-react-module?branch=master
+
 ## install
 
 [![mobile-login-module](https://nodei.co/npm/mobile-login-module.png)](https://npmjs.org/package/mobile-login-module)
