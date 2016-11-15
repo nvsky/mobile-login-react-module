@@ -73,6 +73,6 @@ npm start
 
 ## Example
 
-http://localhost:8001/examples/
+https://nvsky.github.io/mobile-login-react-module/build/
 
 
