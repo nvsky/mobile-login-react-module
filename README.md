@@ -11,7 +11,7 @@ mobile login react modules
 [travis-image]: https://travis-ci.org/nvsky/mobile-login-react-module.svg?style=flat-square
 [travis-url]: https://travis-ci.org/nvsky/mobile-login-react-module
 [npm-image]: https://img.shields.io/npm/v/mobile-login-module.svg?style=flat-square
-[npm-url]: http://npmjs.org/package/rc-switch
+[npm-url]: http://npmjs.org/package/mobile-login-module 
 [coveralls-image]: https://coveralls.io/repos/github/nvsky/mobile-login-react-module/badge.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/github/nvsky/mobile-login-react-module?branch=master
 [download-image]: https://img.shields.io/npm/dm/mobile-login-module.svg?style=flat-square
