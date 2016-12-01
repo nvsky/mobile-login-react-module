@@ -19775,6 +19775,7 @@ webpackJsonp([0,1],[
 	  propTypes: {
 	    className: React.PropTypes.string,
 	    prefixCls: React.PropTypes.string,
+	    restProps: React.PropTypes.string,
 	    msg: React.PropTypes.string,
 	    getCode: React.PropTypes.func,
 	    getLogin: React.PropTypes.func
@@ -19782,6 +19783,7 @@ webpackJsonp([0,1],[
 	  getDefaultProps: function getDefaultProps() {
 	    return {
 	      prefixCls: 'rc-login',
+	      restProps: '',
 	      className: '',
 	      msg: '',
 	      getCode: noop,
