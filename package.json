@@ -2,9 +2,9 @@
   "name": "mobile-login-module",
   "version": "1.0.7",
   "description": "mobile login modules",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "entry": {
-    "rc-slider": [
+    "mobile-login-module": [
       "./src/login.less",
       "./src/index.js"
     ]
