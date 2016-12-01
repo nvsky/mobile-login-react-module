@@ -5,11 +5,11 @@ const Login = require('mobile-login-module');
 
 
 const Test = React.createClass({
-  getCode(phoneVlue) {
-    console.log(phoneVlue);
+  getCode(phoneValue) {
+    console.log(phoneValue);
   },
-  getLogin(phoneVlue, codeValue) {
-    console.log(phoneVlue+'#'+codeValue);
+  getLogin(phoneValue, codeValue) {
+    console.log(phoneValue+'#'+codeValue);
   },
   render() {
     return (<div style={{margin: 0}}>

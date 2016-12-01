@@ -67,7 +67,7 @@ React.render(<Login />, container);
 ## Development
 
 ```
-npm install
+npm install mobile-login-module --save
 npm start
 ```
 
