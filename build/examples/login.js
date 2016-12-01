@@ -19,11 +19,11 @@ webpackJsonp([0,1],[
 	var Test = React.createClass({
 	  displayName: 'Test',
 	
-	  getCode: function getCode(phoneVlue) {
-	    console.log(phoneVlue);
+	  getCode: function getCode(phoneValue) {
+	    console.log(phoneValue);
 	  },
-	  getLogin: function getLogin(phoneVlue, codeValue) {
-	    console.log(phoneVlue + '#' + codeValue);
+	  getLogin: function getLogin(phoneValue, codeValue) {
+	    console.log(phoneValue + '#' + codeValue);
 	  },
 	  render: function render() {
 	    return React.createElement(
