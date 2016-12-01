@@ -1,6 +1,6 @@
 {
   "name": "mobile-login-module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "mobile login modules",
   "main": "./lib/index.js",
   "entry": {
