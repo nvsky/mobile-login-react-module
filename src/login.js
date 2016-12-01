@@ -9,7 +9,6 @@ const Login = React.createClass({
   propTypes: {
     className: React.PropTypes.string,
     prefixCls: React.PropTypes.string,
-    restProps: React.PropTypes.string,
     msg: React.PropTypes.string,
     getCode: React.PropTypes.func,
     getLogin: React.PropTypes.func,
@@ -17,7 +16,6 @@ const Login = React.createClass({
   getDefaultProps() {
     return {
       prefixCls: 'rc-login',
-      restProps: '',
       className: '',
       msg: '',
       getCode: noop,

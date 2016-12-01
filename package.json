@@ -3,6 +3,15 @@
   "version": "1.0.6",
   "description": "mobile login modules",
   "main": "index.js",
+  "entry": {
+    "rc-slider": ["./src/login.less", "./src/index.js"]
+  },
+  "style": "./src/index.css",
+  "files": [
+    "assets/*.css",
+    "lib",
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nvsky/mobile-login-react-module.git"
