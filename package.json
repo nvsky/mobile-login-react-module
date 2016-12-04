@@ -2,18 +2,7 @@
   "name": "mobile-login-module",
   "version": "1.0.9",
   "description": "mobile login modules",
-  "main": "./src/index.js",
-  "entry": {
-    "mobile-login-module": [
-      "./src/login.less",
-      "./src/index.js"
-    ]
-  },
-  "style": "./src/index.css",
-  "files": [
-    "src/*.css",
-    "src"
-  ],
+  "main": "lib/index",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nvsky/mobile-login-react-module.git"
