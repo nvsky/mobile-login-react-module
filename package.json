@@ -5,7 +5,7 @@
   "main": "lib/index",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nvsky/mobile-login-react-module.git"
+    "url": "git@github.com:nvsky/mobile-login-react-module.git"
   },
   "keywords": [
     "react",

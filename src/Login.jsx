@@ -1,5 +1,6 @@
 const React = require('react');
 const classNames = require('classnames');
+require('../assets/index.less');
 
 function noop() {
 

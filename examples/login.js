@@ -1,4 +1,4 @@
-require('../src/login.less');
+require('../assets/index.less');
 const React = require('react');
 const ReactDOM = require('react-dom');
 const Login = require('mobile-login-module');
