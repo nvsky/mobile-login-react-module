@@ -1,6 +1,5 @@
 const React = require('react');
 const classNames = require('classnames');
-require('../assets/index.css');
 
 function noop() {
 

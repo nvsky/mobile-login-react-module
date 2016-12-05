@@ -4,7 +4,10 @@
   "description": "mobile login modules",
   "main": "lib/index",
   "files": [
-    "lib"
+    "lib",
+    "src",
+    "assets",
+    "index.js"
   ],
   "repository": {
     "type": "git",
