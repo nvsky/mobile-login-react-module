@@ -19752,7 +19752,6 @@ webpackJsonp([0,1],[
 
 	'use strict';
 	
-	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../assets/index.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	module.exports = __webpack_require__(163);
 
 /***/ },
