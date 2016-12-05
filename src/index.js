@@ -1,2 +1,2 @@
-require('../assets/index.less');
+require('../assets/index.css');
 module.exports = require('./Login');
